@@ -21,6 +21,9 @@
 
   * **Google Vision** analysis to describe the content.
   
+  Twitter API Link: https://apps.twitter.com
+  
+  Google API Link: https://console.cloud.google.com/apis/
   
   tweetpy (v.0.1):
   
