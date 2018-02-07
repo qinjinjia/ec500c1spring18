@@ -43,6 +43,12 @@
   pip install google-cloud-vision
 ```
   
+May need,
+```
+source ~/.bashrc
+```
+
+
 
 
  
