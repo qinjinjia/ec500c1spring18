@@ -22,6 +22,23 @@
   * **Google Vision** analysis to describe the content.
   
   
+  tweetpy (v.0.1):
+  ''' 
+  pip install tweetpy
+ 
+  '''
+  
+  
+  '''
+  
+  '''
+  
+  
+  '''
+  
+  '''
+  
+  
 
 
  
