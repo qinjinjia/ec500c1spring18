@@ -26,9 +26,22 @@
   
 ```
   pip install tweetpy
- 
 ```
   
+  ffmpeg (v.3.4.1)
+```
+  brew install ffmpeg
+```
+
+  wget (v.3.2)
+```
+  pip install wget 
+```
+
+  google-cloud-vision(v.0.30.0)
+```
+  pip install google-cloud-vision
+```
   
 
 
