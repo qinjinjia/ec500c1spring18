@@ -1,7 +1,6 @@
 # EC500_C1_HW1 API Exercise
 ## Brief Introduction :sunglasses:
-  **Note: I am new on this course, the due for me is extended to Feb 12th, 2018.**
-  
+
   Hello Everyone! :trollface::trollface::trollface::trollface:
   
   This is the page for **EC500_C1(Spring 2018) HW1 API Exercise** 
