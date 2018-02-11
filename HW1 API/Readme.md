@@ -53,12 +53,12 @@
 Then set up a Cloud Platform Console project and **download a private key as JSON**
 
 ```
-export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
+  export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
 May need,
 ```
-source ~/.bashrc
+  source ~/.bashrc
 ```
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
