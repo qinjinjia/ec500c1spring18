@@ -47,7 +47,7 @@
 ```
 
 ```
-pip install google-cloud-bigquery
+  pip install google-cloud-bigquery
 ```
 
 Then set up a Cloud Platform Console project and **download a private key as JSON**
