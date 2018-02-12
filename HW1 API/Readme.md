@@ -24,7 +24,8 @@
   Twitter API Link: https://apps.twitter.com
   
   Google API Link: https://console.cloud.google.com/apis/
-  
+
+## Configure Enivronment :smirk:
   tweetpy (v.0.1):
   
 ```
@@ -63,5 +64,17 @@ May need,
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
 
+## Instruction :bowtie:
 
+####
+
+####
+
+## FFMPEG to convert images to video :bowtie:
+
+## Project Description :bowtie:
+
+## Error Handling
+
+## Demo
 
