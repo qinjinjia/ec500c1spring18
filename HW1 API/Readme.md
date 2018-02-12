@@ -81,25 +81,41 @@ You could use this file **as a Library** or **a Program**.
 #### Use as a LIBRARY
 There are three functions you could call:
 
-* 1. get_tweets_imgs_url(screen_name)
+* 1. **get_tweets_imgs_url(screen_name)**
+
    input: screen_name
    output: urls of all images
    description: utilize Twitter API to access the twitter content
 
-* 2. conv_imgs2video(media_names)
+* 2. **conv_imgs2video(media_names)**
+
    input: images
+   
    output: a video
+   
    description: utilize FFMPEG to convert images to video
-* 3. describe_imgs(media_names)
+   
+* 3. **describe_imgs(media_names)**
+
    input: images
+   
    output: description of each image
+   
    description: utilize Google Vision analysis to describe the content
 
 
 #### Use as a Program
 
-   just type "python HW1_API [screen_name]" in terminal to run
+   Just type "**python HW1_API [screen_name]**" in terminal to run
+   
    e.g. python HW1_API @helpanimals
+   
+#### Additionally note
+   To use this library, use 'import HW1_API' in your code.
+   
+   Additionally, you need to set up a Cloud Platform Console project and Download a private key as JSON.
+
+   Then, run export GOOGLE_APPLICATION_CREDENTIALS="[PATH]" in terminal.
 
 #### Enjoy the code and have fun!:wink::wink:
 
@@ -108,7 +124,12 @@ There are three functions you could call:
 <br/>
 
 ## Error Handling :satisfied:
-
+```Python
+    # Error handler
+    if len(new_tweets) == 0:
+        print("The account doesn't exist or Has no tweets.\n")
+        return 1
+```
 
 </br>
 
