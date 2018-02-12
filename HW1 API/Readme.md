@@ -181,8 +181,92 @@ In Summary,
 
 ## Demo :grin:
 
+If we type **python HW1_API @helpanimals** in the terminal. The we will download images from the twitter **@helpanimals** :koala:, convert them to a video and describe the content of the images in the video.
+
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW1%20API/Images%20for%20Readme/terminal%20screenshot.png" width="400" height="250">
 
+If the code is executed successfully, you will see this.
+
+***************************************
+Congratulation!
+
+There are 3 images downloaded from @helpanimals
+
+image_name_and_url.json (Twitter API to access the twitter content)
+
+output.mp4 (FFMPEG to convert images to video)
+
+image_description.json (Google Vision analysis to describe the content)
+
+***************************************
+
+In addition to the downloaded images and intermediate videos, there are three files generated:
+
+|File Name|Description|
+|---|---
+|image_name_and_url.json|Twitter API to access the twitter content|
+|output.mp4|FFMPEG to convert images to video|
+|image_description.json|Google Vision analysis to describe the content|
+
+### image_name_and_url.json
+
+We generate a json file image_name_and_url.json which contains image names and URLS :link:
+
+```Json
+{
+    "image0": {
+        "DNbKsQvXcAA8gUo.jpg": "http://pbs.twimg.com/media/DNbKsQvXcAA8gUo.jpg"
+    },
+    "image1": {
+        "DNbKsQvXcAA8gUo.jpg": "http://pbs.twimg.com/media/DNbKsQvXcAA8gUo.jpg"
+    },
+    "image2": {
+        "DNbKsQvXcAA8gUo.jpg": "http://pbs.twimg.com/media/DNbKsQvXcAA8gUo.jpg"
+    }
+}
+```
+
+```Json
+{
+    "DONkw6OXkAA9O_k.jpg": [
+        {
+            "mid": "/m/04cmwn",
+            "description": "goats",
+            "score": "0.973938524723053",
+            "topicality": "0.973938524723053"
+        },
+        {
+            "mid": "/m/03fwl",
+            "description": "goat",
+            "score": "0.9564047455787659",
+            "topicality": "0.9564047455787659"
+        },
+        {
+            "mid": "/m/0ch8v",
+            "description": "livestock",
+            "score": "0.772557258605957",
+            "topicality": "0.772557258605957"
+        },
+        {
+            "mid": "/m/01k050",
+            "description": "cow goat family",
+            "score": "0.7372137904167175",
+            "topicality": "0.7372137904167175"
+        },
+        {
+            "mid": "/m/01jvw5",
+            "description": "goat antelope",
+            "score": "0.6323748826980591",
+            "topicality": "0.6323748826980591"
+        },
+        {
+            "mid": "/m/05mqq3",
+            "description": "snout",
+            "score": "0.5495671629905701",
+            "topicality": "0.5495671629905701"
+        }
+    ],
+```
 
 :sun_with_face: **Finally, thank you for watching :D)**:exclamation:
 
