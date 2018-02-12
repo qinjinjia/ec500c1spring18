@@ -3,8 +3,7 @@
 
   Hello Everyone! :trollface::trollface::trollface::trollface:
   
-  This is the page for **EC500_C1(Spring 2018) HW2 Code Review Exercise** 
-  [@github/qinjinjia/ec500c1spring18/HW2_Code_Review](https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review)
+  This is the page for **EC500_C1(Spring 2018) HW2 Code Review** [@github/qinjinjia/ec500c1spring18/HW2_Code_Review](https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review)
   
   The Author: :boy: **Qinjin Jia** qjia@bu.edu   :point_right:[@github/qinjinjia](https://github.com/qinjinjia)
    
