@@ -28,6 +28,8 @@
 ## Configure Enivronment :smirk:
   For running the code, you need to download and install following packages:
   
+  My Environment is **macOS High Sierra Version 10.13.3** and **Python 3.5**.
+  
   tweetpy (v.0.1):
   
 ```
@@ -79,3 +81,6 @@ May need,
 
 ## Demo :grin:
 
+:sun_with_face: **Finally, thank you for watching :D)**:exclamation:
+
+:trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface:
