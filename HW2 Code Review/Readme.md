@@ -13,7 +13,7 @@
 
 ## Project Description :bowtie:
 :new_moon: The aim :golf: of the project：
-* Comprehensive Code Review
-* Develop Test scenarios and scripts
-* Build a local home page
+* :sun_with_face: Comprehensive Code Review
+* :full_moon_with_face: Develop Test scenarios and scripts
+* :new_moon_with_face: Build a local home page
 
