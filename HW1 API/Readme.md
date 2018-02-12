@@ -10,6 +10,8 @@
    
   :mailbox_closed:Please feel free to contact me, if you have any suggestions or concerns.
   
+</br>
+
 ## Project Description :bowtie:
 :new_moon: The aim :golf: of the project：
 
@@ -24,6 +26,8 @@
   Twitter API Link: :link: https://apps.twitter.com
   
   Google API Link: :link: https://console.cloud.google.com/apis/
+
+</br>
 
 ## Configure Enivronment :smirk:
   For running the code, you need to download and install following packages:
@@ -61,23 +65,52 @@ Then set up a Cloud Platform Console project and **download a private key as JSO
   export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
-May need,
+Warm NOTE: If Google Cloud does not running on your compter successfully, you may try this command,
 ```
   source ~/.bashrc
 ```
+Hope this helps.
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
 
+</br>
+
 ## Instruction :grinning:
+You could use this file **as a Library** or **a Program**.
 
-####
+#### Use as a LIBRARY
+There are three functions you could call:
 
-####
+* 1. get_tweets_imgs_url(screen_name)
+   input: screen_name
+   output: urls of all images
+   description: utilize Twitter API to access the twitter content
 
-#### FFMPEG to convert images to video :bowtie:
+* 2. conv_imgs2video(media_names)
+   input: images
+   output: a video
+   description: utilize FFMPEG to convert images to video
+* 3. describe_imgs(media_names)
+   input: images
+   output: description of each image
+   description: utilize Google Vision analysis to describe the content
 
+
+#### Use as a Program
+
+   just type "python HW1_API [screen_name]" in terminal to run
+   e.g. python HW1_API @helpanimals
+
+#### Enjoy the code and have fun!:wink::wink:
+
+:beers::beers::beers:
+
+<br/>
 
 ## Error Handling :satisfied:
+
+
+</br>
 
 ## Demo :grin:
 
