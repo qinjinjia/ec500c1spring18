@@ -64,17 +64,16 @@ May need,
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
 
-## Instruction :bowtie:
+## Instruction :grinning:
 
 ####
 
 ####
 
-## FFMPEG to convert images to video :bowtie:
+#### FFMPEG to convert images to video :bowtie:
 
-## Project Description :bowtie:
 
-## Error Handling
+## Error Handling :satisfied:
 
-## Demo
+## Demo :grin:
 
