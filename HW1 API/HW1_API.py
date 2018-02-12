@@ -51,10 +51,10 @@ import subprocess
 # Please use your own Twitter API credentials here
 # Check my Github @qinjinjia for instruction or 
 # use Twitter API Link: https://apps.twitter.com
-consumer_key = "lurbeV7M9K6r6AEd6l0Nknkaa"
-consumer_secret = "re5hQSl74XV0Zw6myallzJRCXkuyrl6QbisaG4EHqctVEpjJZi"
-access_token = "1871427540-Hoi1hICsMJnnulUm5OPSlOkFMjDdL3oK8H1seCP"
-access_secret = "QtYdQrjxotIqYkFpFyoOLiQwj3hfmqK6ErXrsTTPSjYzG"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""
 
     
 
