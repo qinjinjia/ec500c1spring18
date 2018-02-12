@@ -123,6 +123,10 @@ There are three functions you could call:
 <br/>
 
 ## Error Handling :satisfied:
+Also, I consider the error handlers in the code:
+
+#### Error: The account doesn't exist or Has no tweets.
+
 ```Python
     # Error handler
     if len(new_tweets) == 0:
@@ -130,6 +134,7 @@ There are three functions you could call:
         return 1
 ```
 
+#### Error: An error occurs wilie obtaining image URL.
 ```Python
       try:
           media = status.entities.get('media', [])
@@ -140,6 +145,7 @@ There are three functions you could call:
           return 2
 ```
 
+#### Error: An error occurs while using FFMPEG.
 ```Python
     # convert image to video
     try:
@@ -160,9 +166,10 @@ There are three functions you could call:
         return 3
 ```
 
-Also, some other error would be raised by API.
+**Also, some other error would be raised by API.**
 
 In Summary,
+
 |Error Code|Error Description|
 |---|---
 |1|The account doesn't exist or Has no tweets.|
@@ -174,7 +181,7 @@ In Summary,
 
 ## Demo :grin:
 
-<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW1%20API/Images%20for%20Readme/terminal%20screenshot.png" width="400" height="200">
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW1%20API/Images%20for%20Readme/terminal%20screenshot.png" width="400" height="250">
 
 
 :sun_with_face: **Finally, thank you for watching :D)**:exclamation:
