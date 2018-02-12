@@ -10,5 +10,8 @@
 :full_moon_with_face: Assignment 1 - API
 :link: https://github.com/qinjinjia/ec500c1spring18/tree/master/HW1%20API
 
+:waxing_crescent_moon: Assignment 2 - Code Review
+:link: https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review
+
 </br>
 :trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface:
