@@ -21,11 +21,13 @@
 
   * **Google Vision** analysis to describe the content.
   
-  Twitter API Link: https://apps.twitter.com
+  Twitter API Link: :link: https://apps.twitter.com
   
-  Google API Link: https://console.cloud.google.com/apis/
+  Google API Link: :link: https://console.cloud.google.com/apis/
 
 ## Configure Enivronment :smirk:
+  For running the code, you need to download and install following packages:
+  
   tweetpy (v.0.1):
   
 ```
