@@ -69,7 +69,7 @@ Warm NOTE: If Google Cloud does not running on your compter successfully, you ma
 ```
   source ~/.bashrc
 ```
-Hope this helps.
+Hope this helps. :neckbeard:
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
 
@@ -78,7 +78,7 @@ Hope this helps.
 ## Instruction :grinning:
 You could use this file **as a Library** or **a Program**.
 
-#### Use as a LIBRARY
+#### Use as a LIBRARY :file_folder:
 There are three functions you could call:
 
 ##### 1. **get_tweets_imgs_url(screen_name)**
@@ -103,18 +103,18 @@ There are three functions you could call:
 * description: utilize Google Vision analysis to describe the content
 
 
-#### Use as a Program
+#### Use as a Program :scroll:
 
    Just type "**python HW1_API [screen_name]**" in terminal to run
    
    e.g. python HW1_API @helpanimals
    
-#### Additionally note
-   To use this library, use 'import HW1_API' in your code.
+#### Additionally note :pushpin:
+   To use this library, use '**import HW1_API**' in your code. :page_with_curl:
    
-   Additionally, you need to set up a Cloud Platform Console project and Download a private key as JSON.
+   Additionally, you need to **set up a Cloud Platform Console project** and **Download a private key as JSON.**
 
-   Then, run export GOOGLE_APPLICATION_CREDENTIALS="[PATH]" in terminal.
+   Then, run export GOOGLE_APPLICATION_CREDENTIALS="[PATH]" in terminal. :pill:
 
 #### Enjoy the code and have fun!:wink::wink:
 
@@ -173,6 +173,9 @@ In Summary,
 </br>
 
 ## Demo :grin:
+
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW1%20API/Images%20for%20Readme/terminal%20screenshot.png" width="400" height="200">
+
 
 :sun_with_face: **Finally, thank you for watching :D)**:exclamation:
 
