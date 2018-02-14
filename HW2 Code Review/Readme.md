@@ -53,8 +53,21 @@ print (media_files)
 ```
 
 **********************************************************
+**In TwitterSummarization.py**
 
- 
+**parentheses missed for call to 'print'**
+
+Traceback (most recent call last):
+  File "TwitterSummarization.py", line 209, in <module>
+    main()
+  File "TwitterSummarization.py", line 201, in main
+    description_dict = gVision_and_FFMPEG(pic_urls)
+  File "TwitterSummarization.py", line 143, in gVision_and_FFMPEG
+    if webnotes.web_entities[0] > escore:
+TypeError: '>' not supported between instances of 'WebEntity' and 'int
+  
+**********************************************************
+
 ## Develop Test scenarios and scripts
 
 
