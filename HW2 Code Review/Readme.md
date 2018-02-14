@@ -19,6 +19,18 @@
 
 
 ## Comprehensive Code Review
+#### Overall
+
+  |The project reviewed| **[@github.com/abbottn3/EC500](https://github.com/abbottn3/EC500)**
+  |--|--
+  |**The Reviewer**| :boy: **Qinjin Jia** qjia@bu.edu   :point_right:[@github/qinjinjia](https://github.com/qinjinjia)
+  |**Criteria Followed**| [MIT 6.005 fall 15 - Reading 4 Code Review](http://web.mit.edu/6.005/www/fa15/classes/04-code-review/) 
+  ||[Code Review Checklist](http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/)
+
+  :sun_with_face: Summary of the Code Review Criteria :link: [Code Review Criteria.pdf](https://github.com/qinjinjia/ec601_Code-Review/blob/master/Code%20Review%20Criteria.pdf) 
+ 
+ :full_moon_with_face: Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/), [pylint](https://www.pylint.org)
+ 
 #### Some bugs in the code were fixed before conducing code review.
 **********************************************************
 **In myTweep.py**
@@ -42,15 +54,6 @@ print (media_files)
 
 **********************************************************
 
-  |The project reviewed| **[@github.com/abbottn3/EC500](https://github.com/abbottn3/EC500)**
-  |--|--
-  |**The Reviewer**| :boy: **Qinjin Jia** qjia@bu.edu   :point_right:[@github/qinjinjia](https://github.com/qinjinjia)
-  |**Criteria Followed**| [MIT 6.005 fall 15 - Reading 4 Code Review](http://web.mit.edu/6.005/www/fa15/classes/04-code-review/) 
-  ||[Code Review Checklist](http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/)
-
-  :sun_with_face: Summary of the Code Review Criteria :link: [Code Review Criteria.pdf](https://github.com/qinjinjia/ec601_Code-Review/blob/master/Code%20Review%20Criteria.pdf) 
- 
- :full_moon_with_face: Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/), [pylint](https://www.pylint.org
  
 ## Develop Test scenarios and scripts
 
