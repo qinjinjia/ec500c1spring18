@@ -20,7 +20,8 @@
 
 ## Comprehensive Code Review
 #### Some bugs in the code were fixed before conducing code review.
-In myTweep.py
+**********************************************************
+**In myTweep.py**
 
 **parentheses missed for call to 'print'**
 
