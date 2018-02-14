@@ -21,6 +21,7 @@
 ## Comprehensive Code Review
 #### Some bugs in the code were fixed before conducing code review.
 In myTweep.py
+
 parentheses missed for call to 'print'
 
 File "myTweep.py", line 75
@@ -30,11 +31,13 @@ SyntaxError: Missing parentheses in call to 'print'
 
 Solution:
 Change
+```Python
 print media_files
+```
 to
-
+```Python
 print (media_files)
-
+```
 
 ## Develop Test scenarios and scripts
 
