@@ -13,7 +13,24 @@
 
 ## Project Description :bowtie:
 :new_moon: The aim :golf: of the project：
-* :sun_with_face: Comprehensive Code Review
-* :full_moon_with_face: Develop Test scenarios and scripts
-* :new_moon_with_face: Build a local home page
+* :sun_with_face: Comprehensive **Code Review**
+* :full_moon_with_face: Develop **Test** scenarios and scripts
+* :new_moon_with_face: Build a **local home page**
+
+#### Code Review
+* Review the data path
+* Review the API calls
+* Document code convention issues
+* Document readability of the software
+* Document error handling issues
+* Document performance of the API
+* Is the main call Synchronous or Asynchronous?
+  
+  What is the difference between both approaches
+
+
+#### Unit Tests Application
+
+
+#### Application
 
