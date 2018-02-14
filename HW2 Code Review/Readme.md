@@ -70,9 +70,11 @@ Traceback (most recent call last):
   File "TwitterSummarization.py", line 143, in gVision_and_FFMPEG
     if webnotes.web_entities[0] > escore:
 TypeError: '>' not supported between instances of 'WebEntity' and 'int
-  
-**********************************************************
+
 ```
+
+**********************************************************
+
 
 ## Develop Test scenarios and scripts
 
