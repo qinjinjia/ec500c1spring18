@@ -17,20 +17,26 @@
 * :full_moon_with_face: Develop **Test** scenarios and scripts
 * :new_moon_with_face: Build a **local home page**
 
-#### Code Review
-* Review the data path
-* Review the API calls
-* Document code convention issues
-* Document readability of the software
-* Document error handling issues
-* Document performance of the API
-* Is the main call Synchronous or Asynchronous?
-  
-  What is the difference between both approaches
+
+## Comprehensive Code Review
+#### Some bugs in the code were fixed before conducing code review.
+In myTweep.py
+parentheses missed for call to 'print'
+
+File "myTweep.py", line 75
+    print media_files
+                    ^
+SyntaxError: Missing parentheses in call to 'print'
+
+Solution:
+Change
+print media_files
+to
+
+print (media_files)
 
 
-#### Unit Tests Application
+## Develop Test scenarios and scripts
 
 
-#### Application
-
+## Build a local home page
