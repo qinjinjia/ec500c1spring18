@@ -18,7 +18,7 @@
 * :new_moon_with_face: Build a **local home page**
 
 
-## Comprehensive Code Review
+## Comprehensive Code Review :neckbeard:
 ### Overall
 
   |The project reviewed| **[@github.com/abbottn3/EC500](https://github.com/abbottn3/EC500)**
@@ -57,6 +57,7 @@ print (media_files)
 
 **parentheses missed for call to 'print'**
 
+```
 Traceback (most recent call last):
   File "TwitterSummarization.py", line 209, in <module>
     main()
@@ -67,6 +68,7 @@ Traceback (most recent call last):
 TypeError: '>' not supported between instances of 'WebEntity' and 'int
   
 **********************************************************
+```
 
 ## Develop Test scenarios and scripts
 
