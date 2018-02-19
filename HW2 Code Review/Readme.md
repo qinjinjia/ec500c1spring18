@@ -182,7 +182,7 @@ N/A
 ### 4. Non Functional requirements :waning_gibbous_moon:
 #### 4.1 Maintainability(Supportability) 
 The **Readability** of the code is good. The developer uses **‘camelCode’ nameing convention**, which makes name of variables be meaningful.
-The **"Testability", "Debuggability", "Configurability"** are problems, but it's mainly because cross-platform issue.
+The **"Testability", "Debuggability", "Configurability"** are problems, but it's mainly because the cross-platform issue.
 
 **In TwitterSummarization.py**
 
@@ -207,7 +207,7 @@ TypeError: '>' not supported between instances of 'WebEntity' and 'int
 
 
 #### 4.2 Reusability
-Some places in the code violate [DRY (Do not Repeat Yourself) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).Duplicated code is a risk to safety. If you have identical or very similar code in two places, then the fundamental risk is that there’s a bug in both copies, and some maintainer fixes the bug in one place but not the other. For instance, **DRY code** in :link: [writeToFireBase.java](https://github.com/kev5/Go-Meet/blob/master/writeToFireBase.java)
+Some places in the code violate [DRY (Do not Repeat Yourself) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).Duplicated code is a risk to safety. If you have identical or very similar code in two places, then the fundamental risk is that there’s a bug in both copies, and some maintainer fixes the bug in one place but not the other.
 ```Python
     if pictype > 0:
         d_dict['Image_{}'.format(filecnt)].append(logos[0].description)
