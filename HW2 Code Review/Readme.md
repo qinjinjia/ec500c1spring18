@@ -84,7 +84,7 @@ The python file is assessed by the Code Review auxiliary tool: [pep8](https://ww
 
  |Python File Name |Link |pep8 check |pylint check |
  |--|--|--|--
- |TwitterSummarization.py|:link: [TwitterSumarization.py](///ChangeHere)|217 Problems|-5.81/10 |
+ |TwitterSummarization.py|:link: [TwitterSumarization.py](https://github.com/abbottn3/EC500/blob/master/TwitterSummarization.py)|217 Problems|-5.81/10 |
 
 PEP8 Example: **PEP8 check for TwitterSummarization.py**
 ```
@@ -153,7 +153,7 @@ Not applicable for such a mini project.
 :thumbsup: Good!. There is no [hard coding](https://en.wikipedia.org/wiki/Hard_coding) in the project.
 
 #### 3.2 Enumeration
-The python file :link: [//changehere](//changehere) contains **[magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))**. It is difficult to understand what is the meaning of 0, 1, 3 etc here.
+The python file :link: [TwitterSummarization.py](https://github.com/abbottn3/EC500/blob/master/TwitterSummarization.py) contains **[magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))**. It is difficult to understand what is the meaning of 0, 1, 3 etc here.
 This might be solved by utilizing the enumeration.
 ```python
   if pictype > 0:
