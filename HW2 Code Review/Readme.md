@@ -77,7 +77,7 @@ TypeError: '>' not supported between instances of 'WebEntity' and 'int
 
 **********************************************************
 
-### 1. Code Formatting
+### 1. Code Formatting :sun_with_face:
 The python file is assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
 
  |Python File Name |Link |pep8 check |pylint check |
@@ -143,12 +143,12 @@ There is no commented code found in the file, which is good. :thumbsup:
 
 </br>
 
-### 2. Architecture
+### 2. Architecture :full_moon_with_face:
 Not applicable for such a mini project.
 
 </br>
 
-### 3. Coding best practices
+### 3. Coding best practices :first_quarter_moon:
 #### 3.1 Hard Coding
 :thumbsup: Good!. There is no [hard coding](https://en.wikipedia.org/wiki/Hard_coding) in the project.
 
@@ -179,7 +179,7 @@ N/A
 
 </br>
 
-### 4. Non Functional requirements
+### 4. Non Functional requirements :waning_gibbous_moon:
 #### 4.1 Maintainability(Supportability) 
 The **Readability** of the code is good. The developer uses **‘camelCode’ nameing convention**, which makes name of variables be meaningful.
 The **"Testability", "Debuggability", "Configurability"** are problems, but it's mainly because cross-platform issue.
@@ -241,7 +241,7 @@ Thus, the file could be used as an library and then the functions in the file co
 
 </br>
 
-### 5. Synchronous or Asynchronous
+### 5. Synchronous or Asynchronous :last_quarter_moon:
 Synchronous/asynchronous APIs are application programming interfaces(API) that return data for requests either immediately or at a later time, respectively. The synchronous and asynchronous nature of an API is a function of the time frame from the request to the return of data.:link: [**link**](http://whatis.techtarget.com/definition/synchronous-asynchronous-API)
 For the code reviewed, [**TwitterSumarization.py**](https://github.com/abbottn3/EC500/blob/master/TwitterSummarization.py), **the code is Synchronous** :bouquet: as the code returns data for requests immediately. We need to wait until all images are downloaded to continue next step.
 
