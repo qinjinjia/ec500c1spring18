@@ -77,7 +77,7 @@ TypeError: '>' not supported between instances of 'WebEntity' and 'int
 
 **********************************************************
 
-### 1. Code Formatiing
+### 1. Code Formatting
 The python file is assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
 
  |Python File Name |Link |pep8 check |pylint check |
