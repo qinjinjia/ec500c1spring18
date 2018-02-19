@@ -75,7 +75,174 @@ TypeError: '>' not supported between instances of 'WebEntity' and 'int
 ```
 
 **********************************************************
+##
 
+## 
+
+## 1. Code Formatiing
+The python file is assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
+
+ |Python File Name |Link |pep8 check |pylint check |
+ |--|--|--|--
+ |TwitterSummarization.py|:link: [TwitterSumarization.py](///ChangeHere)|217 Problems|-5.81/10 |
+
+PEP8 Example: **PEP8 check for TwitterSummarization.py**
+```
+TwitterSummarization.py:25:1: E302 expected 2 blank lines, found 1
+TwitterSummarization.py:26:1: W191 indentation contains tabs
+TwitterSummarization.py:27:1: W191 indentation contains tabs
+TwitterSummarization.py:28:1: W191 indentation contains tabs
+TwitterSummarization.py:29:1: W191 indentation contains tabs
+TwitterSummarization.py:30:1: W191 indentation contains tabs
+TwitterSummarization.py:32:1: W191 indentation contains tabs
+TwitterSummarization.py:33:1: W191 indentation contains tabs
+TwitterSummarization.py:33:6: W291 trailing whitespace
+TwitterSummarization.py:34:1: W191 indentation contains tabs
+TwitterSummarization.py:34:2: E101 indentation contains mixed spaces and tabs
+TwitterSummarization.py:35:1: W191 indentation contains tabs
+TwitterSummarization.py:35:2: E101 indentation contains mixed spaces and tabs
+TwitterSummarization.py:36:1: W191 indentation contains tabs
+TwitterSummarization.py:36:2: E101 indentation contains mixed spaces and tabs
+and so on...
+```
+
+
+Pylint Example: **Pylint check for TwitterSummarization.py**
+```
+************* Module TwitterSummarization
+W: 27, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 28, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 29, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 33, 0: Trailing whitespace (trailing-whitespace)
+W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 35, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 36, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 38, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 38, 0: No space allowed before bracket
+      print ("Error -- keys/secrets are incompatible")
+           ^ (bad-whitespace)
+and so on...
+
+Your code has been rated at -5.81/10 (previous run: -5.81/10, +0.00)
+```
+
+According to the **Code Review auxiliary tool Pep8 and Pylint, Overall Code Quality(Formatting) still can be improved.**
+
+#### 1.1 Alignments
+The uses of alignments are perfect. The code block starting point and ending point are **easily identifiable**.
+
+#### 1.2 Naming Conventions
+The **‘camelCode’** nameing convention is used in the project. The developer utilizes capital letters to indicate the start of a word, which makes name of variables be **meaningful**. However, the developer uses "underline" naming conventions (e.g. 'pic_urls') in few places of the code. It would be better if the developer could follow the same naming convention for the whole file. 
+
+#### 1.3 Code Layout
+:thumbsup:Perfect! The code can fit in the standard 14-inch laptop screen.
+
+#### 1.4 Commented Code
+There is no commented code found in the file, which is good. :thumbsup:
+
+
+### 2. Architecture
+Not applicable for such a mini project.
+
+
+### 3. Coding best practices
+#### 3.1 Hard Coding
+:thumbsup: Good!. There is no [hard coding](https://en.wikipedia.org/wiki/Hard_coding) in the project.
+
+#### 3.2 Enumeration
+The python file :link: [//changehere](//changehere) contains **[magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))**. It is difficult to understand what is the meaning of 0, 1, 3 etc here.
+This might be solved by utilizing the enumeration.
+```python
+  if pictype > 0:
+      escore = 1
+    else:
+      escore = 3
+```
+
+#### 3.3 Comments
+The developer utilzes meaningful comments, which helps other to understand the code.
+However, this kind of comments(i.e. comments to help developer understand the tutorial) should be deleted (or removed from the master branch).
+```python
+  # Grabs pic URLs
+  pic_urls = twitterDL(t_handle)
+```
+
+
+#### 3.4 Mul if/else blocks
+:thumbsup: Good, there is no multiple if/else block in the project.
+
+#### 3.5 Framework features
+N/A
+
+
+### 4. Non Functional requirements
+#### 4.1 Maintainability(Supportability) 
+The **Readability** of the code is good. The developer uses **‘camelCode’ nameing convention**, which makes name of variables be meaningful.
+The **"Testability", "Debuggability", "Configurability"** are problems, but it's mainly because cross-platform issue.
+
+**In TwitterSummarization.py**
+
+This is an **cross-platform problem**, and I **CANNOT** solve this problem :boom::boom::boom:
+
+As Osama said that if people are having **too much trouble** making the programs **work cross platform**, you can just do the **test
+cases for your own program** and only do the **text peer review on peer's project**.
+
+:exclamation::exclamation::exclamation: Therefore, I would do the **test cases for my own program** and **only do the text peer review on peer's API assignment** :exclamation::exclamation::exclamation:
+
+```
+Traceback (most recent call last):
+  File "TwitterSummarization.py", line 209, in <module>
+    main()
+  File "TwitterSummarization.py", line 201, in main
+    description_dict = gVision_and_FFMPEG(pic_urls)
+  File "TwitterSummarization.py", line 143, in gVision_and_FFMPEG
+    if webnotes.web_entities[0] > escore:
+TypeError: '>' not supported between instances of 'WebEntity' and 'int
+
+```
+
+
+#### 4.2 Reusability
+Some places in the code violate [DRY (Do not Repeat Yourself) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).Duplicated code is a risk to safety. If you have identical or very similar code in two places, then the fundamental risk is that there’s a bug in both copies, and some maintainer fixes the bug in one place but not the other. For instance, **DRY code** in :link: [writeToFireBase.java](https://github.com/kev5/Go-Meet/blob/master/writeToFireBase.java)
+```Python
+    if pictype > 0:
+        d_dict['Image_{}'.format(filecnt)].append(logos[0].description)
+        picdescripts.write(logos[0].description)
+      else:
+        d_dict['Image_{}'.format(filecnt)].append(logos[0].description)
+        picdescripts.write('Logo Description: {}, '.format(logos[0].description))
+```
+
+However, the project utilizes **generic functions**, which increase reusability of the project. 
+
+#### 4.3 Reliability:
+Exception handling is considered in the code.
+```Python
+  # Verifying Twitter Handle
+  try:
+      user = api.get_user(user_handle)
+  except tweepy.TweepError:
+      print ("Error -- invalid Twitter handle")
+      sys.exit()
+```
+
+#### 4.4 Extensibility
+The developer could use this code to increase the "Extensibility".
+```Python
+# for using this file as a Library
+if __name__ == '__main__':
+    main()
+```
+Thus, the file could be used as an library and then the functions in the file could be called in other files.
+
+
+
+## Synchronous or Asynchronous
+Synchronous/asynchronous APIs are application programming interfaces(API) that return data for requests either immediately or at a later time, respectively. The synchronous and asynchronous nature of an API is a function of the time frame from the request to the return of data.[changehere]
+The code is Synchronous.
 
 ## Develop Test scenarios and scripts :guardsman:
 
