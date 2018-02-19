@@ -242,8 +242,10 @@ Thus, the file could be used as an library and then the functions in the file co
 
 
 ### Synchronous or Asynchronous
-Synchronous/asynchronous APIs are application programming interfaces(API) that return data for requests either immediately or at a later time, respectively. The synchronous and asynchronous nature of an API is a function of the time frame from the request to the return of data.:link:[link](http://whatis.techtarget.com/definition/synchronous-asynchronous-API)
-The code is Synchronous.
+Synchronous/asynchronous APIs are application programming interfaces(API) that return data for requests either immediately or at a later time, respectively. The synchronous and asynchronous nature of an API is a function of the time frame from the request to the return of data.:link: [**link**](http://whatis.techtarget.com/definition/synchronous-asynchronous-API)
+For the code reviewed, [**TwitterSumarization.py**](https://github.com/abbottn3/EC500/blob/master/TwitterSummarization.py), the 
+
+The code is Synchronous as the code returns data for requests immediately. We need to wait until all images are downloaded to continue next step.
 
 ### Develop Test scenarios and scripts :guardsman:
 
