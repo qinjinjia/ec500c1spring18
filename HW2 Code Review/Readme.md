@@ -135,7 +135,7 @@ According to the **Code Review auxiliary tool Pep8 and Pylint, Overall Code Qual
 The uses of alignments are perfect. The code block starting point and ending point are **easily identifiable**.
 
 #### 1.2 Naming Conventions
-The **‘camelCode’** nameing convention is used in the project. The developer utilizes capital letters to indicate the start of a word, which makes name of variables be **meaningful**. However, the developer uses "underline" naming conventions (e.g. 'pic_urls') in few places of the code. It would be better if the developer could follow the same naming convention for the whole file. 
+The **‘camelCode’** nameing convention is used in the project. The developer utilizes capital letters to indicate the start of a word, which makes name of variables be **meaningful**. However, the developer also uses "underline" naming conventions (e.g. 'pic_urls') in few places of the code. It would be better if the developer could follow the same naming convention for the whole file. 
 
 #### 1.3 Code Layout
 :thumbsup:Perfect! The code can fit in the standard 14-inch laptop screen.
