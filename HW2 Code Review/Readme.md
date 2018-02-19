@@ -17,6 +17,7 @@
 * :full_moon_with_face: Develop **Test** scenarios and scripts
 * :new_moon_with_face: Build a **local home page**
 
+</br>
 
 ## Comprehensive Code Review :neckbeard:
 ### Overall
@@ -75,11 +76,8 @@ TypeError: '>' not supported between instances of 'WebEntity' and 'int
 ```
 
 **********************************************************
-##
 
-## 
-
-## 1. Code Formatiing
+### 1. Code Formatiing
 The python file is assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
 
  |Python File Name |Link |pep8 check |pylint check |
@@ -247,7 +245,7 @@ Thus, the file could be used as an library and then the functions in the file co
 Synchronous/asynchronous APIs are application programming interfaces(API) that return data for requests either immediately or at a later time, respectively. The synchronous and asynchronous nature of an API is a function of the time frame from the request to the return of data.:link:[link](http://whatis.techtarget.com/definition/synchronous-asynchronous-API)
 The code is Synchronous.
 
-## Develop Test scenarios and scripts :guardsman:
+### Develop Test scenarios and scripts :guardsman:
 
 Note: There are **too much trouble** making the peer's programs **work cross platform**, so I just do the **test
 cases for my own programs**.
