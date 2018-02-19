@@ -143,10 +143,12 @@ The **‘camelCode’** nameing convention is used in the project. The developer
 #### 1.4 Commented Code
 There is no commented code found in the file, which is good. :thumbsup:
 
+</br>
 
 ### 2. Architecture
 Not applicable for such a mini project.
 
+</br>
 
 ### 3. Coding best practices
 #### 3.1 Hard Coding
@@ -177,6 +179,7 @@ However, this kind of comments(i.e. comments to help developer understand the tu
 #### 3.5 Framework features
 N/A
 
+</br>
 
 ### 4. Non Functional requirements
 #### 4.1 Maintainability(Supportability) 
@@ -240,7 +243,7 @@ Thus, the file could be used as an library and then the functions in the file co
 
 
 
-## Synchronous or Asynchronous
+### Synchronous or Asynchronous
 Synchronous/asynchronous APIs are application programming interfaces(API) that return data for requests either immediately or at a later time, respectively. The synchronous and asynchronous nature of an API is a function of the time frame from the request to the return of data.[changehere]
 The code is Synchronous.
 
