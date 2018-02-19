@@ -86,7 +86,7 @@ The python file is assessed by the Code Review auxiliary tool: [pep8](https://ww
  |--|--|--|--
  |TwitterSummarization.py|:link: [TwitterSumarization.py](https://github.com/abbottn3/EC500/blob/master/TwitterSummarization.py)|217 Problems|-5.81/10 |
 
-PEP8 Example: **PEP8 check for TwitterSummarization.py**
+**PEP8 check for TwitterSummarization.py**
 ```
 TwitterSummarization.py:25:1: E302 expected 2 blank lines, found 1
 TwitterSummarization.py:26:1: W191 indentation contains tabs
@@ -107,7 +107,7 @@ and so on...
 ```
 
 
-Pylint Example: **Pylint check for TwitterSummarization.py**
+**Pylint check for TwitterSummarization.py**
 ```
 ************* Module TwitterSummarization
 W: 27, 0: Found indentation with tabs instead of spaces (mixed-indentation)
