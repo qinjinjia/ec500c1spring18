@@ -1,1 +1,8 @@
-fdsafd
+1.Data path review: 
+
+2.API calls: Tweepy,ffmpeg,Google Vision
+
+3.Code convention:
+
+-pylint score: 3.03/10
+-A lot of useful comments to
