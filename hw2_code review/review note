@@ -3,6 +3,10 @@
 2.API calls: Tweepy,ffmpeg,Google Vision
 
 3.Code convention:
-
+-Have a main function
+-Every step has a funciton
+-A lot of useful comments
 -pylint score: 3.03/10
--A lot of useful comments to
+
+
+
