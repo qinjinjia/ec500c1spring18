@@ -17,4 +17,7 @@ The code has a lot of useful comments to make it easy to read.
 
 Summary: Awesome performance in error handling.
 
-6.
+6.Is the main call Synchronous or Asynchronous:
+Synchronous.Deesn't need additional inputs.
+
+
