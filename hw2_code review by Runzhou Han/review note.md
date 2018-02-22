@@ -46,7 +46,7 @@ I tried to give a wrong twitter ID in command line, and it returned error messag
 Then I gave an empty screen page, it showed following result
 
 
-![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review/Screen%20Shot%202018-02-21%20at%208.28.45%20PM.png)
+![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review%20by%20Runzhou%20Han/Screen%20Shot%202018-02-21%20at%208.28.45%20PM.png)
 
 
 As no images are downloaded, FMPEG also raises error
