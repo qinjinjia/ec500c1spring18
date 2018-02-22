@@ -57,3 +57,8 @@ As no images are downloaded, FMPEG also raises error
 Images above shows that the program handles error inputs very well!
 
 Then I changed the twitter ID to @ladygaga, it works!(But also failed in calling Google Vision)
+
+Next is time measure.
+
+
+
