@@ -26,7 +26,12 @@ Synchronous.Deesn't need additional inputs.
 ## Develop Test scenarios and scripts
 The code can perfectly get image URL, download them, and convert them to a vedio/vedioes.
 However, It appears credential problem when calling Google Vision.
+
 Before I ran the code, in terminal, I exported Google applicaiton Credential of my own json file:
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/rzhan/Desktop/Alzheimer\'s-683341b411e6.json"
+```
+Then I ran the code, after converting images into vedio, there came error shows that:
+```
+google.auth.exceptions.DefaultCredentialsError: File /Users/rzhan/Desktop/Alzheimer\'s-683341b411e6.json was not found.
 ```
