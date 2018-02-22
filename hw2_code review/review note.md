@@ -53,3 +53,7 @@ As no images are downloaded, FMPEG also raises error
 
 
 ![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review/Screen%20Shot%202018-02-21%20at%208.31.48%20PM.png)
+
+Images above shows that the program handles error inputs very well!
+
+Then I changed the twitter ID to @ladygaga, it works!(But also failed in calling Google Vision)
