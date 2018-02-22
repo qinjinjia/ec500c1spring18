@@ -37,5 +37,7 @@ google.auth.exceptions.DefaultCredentialsError: File /Users/rzhan/Desktop/Alzhei
 ```
 So I just designed test for the first two steps.
 
-Users can't choose screen page, so I changed screen page which doesn't exists inside the code. And it shows
+I tried to give a wrong twitter ID in command line, and it returned error message like this
+
+Then I gave an empty screen page, it showed the same message
 
