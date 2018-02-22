@@ -52,7 +52,7 @@ Then I gave an empty screen page, it showed following result
 As no images are downloaded, FMPEG also raises error
 
 
-![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review/Screen%20Shot%202018-02-21%20at%208.31.48%20PM.png)
+![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review%20by%20Runzhou%20Han/Screen%20Shot%202018-02-21%20at%208.31.48%20PM.png)
 
 Images above shows that the program handles error inputs very well!
 
