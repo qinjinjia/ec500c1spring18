@@ -39,5 +39,5 @@ So I just designed test for the first two steps.
 
 I tried to give a wrong twitter ID in command line, and it returned error message like this
 ![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review/Screen%20Shot%202018-02-21%20at%208.13.11%20PM.png)
-Then I gave an empty screen page, it showed the same message 
-
+Then I gave an empty screen page, it showed following result
+![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review/Screen%20Shot%202018-02-21%20at%208.28.45%20PM.png)
