@@ -35,3 +35,7 @@ Then I ran the code, after converting images into vedio, there came error shows 
 ```
 google.auth.exceptions.DefaultCredentialsError: File /Users/rzhan/Desktop/Alzheimer\'s-683341b411e6.json was not found.
 ```
+So I just designed test for the first two steps.
+
+Users can't choose screen page, so I changed screen page which doesn't exists inside the code. And it shows
+
