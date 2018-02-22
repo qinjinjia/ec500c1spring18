@@ -1,3 +1,6 @@
+# Code review
+
+## Comprehensice Code Review
 1.Data path review: 
 
 2.API calls: Tweepy,ffmpeg,Google Vision
@@ -20,4 +23,10 @@ Summary: Awesome performance in error handling.
 6.Is the main call Synchronous or Asynchronous:
 Synchronous.Deesn't need additional inputs.
 
-
+## Develop Test scenarios and scripts
+The code can perfectly get image URL, download them, and convert them to a vedio/vedioes.
+However, It appears credential problem when calling Google Vision.
+Before I ran the code, in terminal, I exported Google applicaiton Credential of my own json file:
+'''
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/rzhan/Desktop/Alzheimer\'s-683341b411e6.json"
+'''
