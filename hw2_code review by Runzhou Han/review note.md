@@ -60,5 +60,10 @@ Then I changed the twitter ID to @ladygaga, it works!(But also failed in calling
 
 Next is time measure.
 
+Time of getting URL and downloading is 
 
+![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review%20by%20Runzhou%20Han/Screen%20Shot%202018-02-21%20at%209.30.02%20PM.png)
 
+Time of converting images to vedioes is 
+
+![alt text](https://github.com/qinjinjia/ec500c1spring18/blob/master/hw2_code%20review%20by%20Runzhou%20Han/Screen%20Shot%202018-02-21%20at%209.36.09%20PM.png)
