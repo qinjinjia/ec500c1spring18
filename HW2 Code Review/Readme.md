@@ -271,5 +271,11 @@ cases for my own programs**.
 </br>
 
 ## Build a local home page :hear_no_evil:
-
+URL for Local home page: http://127.0.0.1:8080
+```
+ * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 226-064-645
+```
 
