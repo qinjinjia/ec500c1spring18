@@ -278,4 +278,4 @@ URL for Local home page: http://127.0.0.1:8080
  * Debugger is active!
  * Debugger PIN: 226-064-645
 ```
-<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/form_page.png" width="400" height="350">
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/form_page.png" width="500" height="300">
