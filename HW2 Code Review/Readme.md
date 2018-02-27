@@ -306,7 +306,7 @@ Enjoy and have fun :beers:
 
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/enter_screen_name.png" width="400" height="200">
 
-:waxing_crescent_moon: Press **Submit** and the result(video and description) would be displayed on anotehr page.
+:waxing_crescent_moon: Press **Submit** and the result(**video and description**) would be displayed on anotehr page. :globe_with_meridians: 
 
 :first_quarter_moon: Video Screenshot 1:
 
