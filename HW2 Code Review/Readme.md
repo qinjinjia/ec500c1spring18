@@ -272,7 +272,7 @@ cases for my own programs**.
 
 ## Build a local home page :hear_no_evil:
 
-#### Instruction for using local home page
+### Instruction for using local home page
 
 :one: Download webpage floder :open_file_folder: [here](https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review)
 
@@ -288,4 +288,13 @@ URL for Local home page: http://127.0.0.1:8080
  * Debugger is active!
  * Debugger PIN: 226-064-645
 ```
+
+:three: Enter the screen name on the page. (N.B. Remember to include @)
+
+:four: Results(video and description) would be displayed on another page. 
+
+Enjoy and have fun :beers:
+
+### Demo
+
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/form_page.png" width="650" height="350">
