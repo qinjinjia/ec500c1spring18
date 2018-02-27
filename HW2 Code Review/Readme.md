@@ -308,9 +308,9 @@ Then, enter **@HelpAnimals** as the screen name,
 
 Press **Submit** and the result(video and description) would be displayed on anotehr page.
 
-<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video1.png" width="400" height="800">
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video1.png" width="600" height="800">
 
-<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video2.png" width="400" height="800">
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video2.png" width="600" height="800">
 
-<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video3.png" width="400" height="800">
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video3.png" width="600" height="800">
 
