@@ -308,15 +308,15 @@ Enjoy and have fun :beers:
 
 :waxing_crescent_moon: Press **Submit** and the result(**video and description**) would be displayed on anotehr page. :globe_with_meridians: 
 
-:first_quarter_moon: Video Screenshot 1:
+:first_quarter_moon: Video on local home page Screenshot 1:
 
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video1.png" width="600" height="700">
 
-:waxing_gibbous_moon: Video Screenshot 2:
+:waxing_gibbous_moon: Video on local home page Screenshot 2:
 
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video2.png" width="600" height="700">
 
-:full_moon: Video Screenshot 3:
+:full_moon: Video on local home page Screenshot 3:
 
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/video3.png" width="600" height="700">
 
