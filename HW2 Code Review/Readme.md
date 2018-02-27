@@ -274,13 +274,13 @@ cases for my own programs**.
 
 ### Instruction for using local home page
 
-:one: Download webpage floder :open_file_folder: [here](https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review)
+:one: Download **webpage** floder :open_file_folder: [here](https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review)
 
-:two: cd to the floder, use the command
+:two: cd to the floder, then use the command
 ```
     python main.py
 ```
-Then, the url for local home web would be displayed,
+the url for local home web would be displayed,
 URL for Local home page: http://127.0.0.1:8080
 ```
  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
