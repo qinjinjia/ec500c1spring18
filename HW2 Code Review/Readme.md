@@ -298,4 +298,10 @@ Enjoy and have fun :beers:
 
 ### Demo
 
+We use the URL for Local home page: http://127.0.0.1:8080 to open the form page,
+
 <img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/form_page.png" width="650" height="350">
+
+Then, enter **@HelpAnimals** as the screen name,
+
+<img src="https://github.com/qinjinjia/ec500c1spring18/blob/master/HW2%20Code%20Review/images_for_readme/images_for_readme/enter_screen_name.png" width="400" height="300">
