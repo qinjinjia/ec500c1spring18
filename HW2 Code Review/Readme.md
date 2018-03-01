@@ -258,7 +258,7 @@ cases for my own programs**.
 |SW Version|HW1_API.py|
 
 #### Error Handling in the code:satisfied:
-This error handlings are found in the code. It is considered 'Pass' if the code raise the corresponding error described below.
+These error handlings are found in the code. It is considered 'Pass' if the code raise the corresponding error described below.
 
 #### Error: The account doesn't exist or Has no tweets.
 
