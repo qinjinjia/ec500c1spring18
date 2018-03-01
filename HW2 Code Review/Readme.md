@@ -257,15 +257,11 @@ cases for my own programs**.
 |Environment Description|Macbook(macOS V10.13.1)|
 |SW Version||
 
-|ID|Test Scenario|Involved|Test Steps|Results|Pass/Fail|Priority|
+|ID|Test Scenario|Test Steps|Results|Pass/Fail|Priority|
 |---|---|---|---|---|---|---
-|1||||||
-|2||||||
-|3||||||
-|4||||||
-|5||||||
-|6||||||
-|7||||||
+|1|No Input|Run Script without input|Use the default screenname "HelpAnimals"|Pass|Low|
+|2|No Tweet|Run Script with a screenname withou tweet|Raise Error|Pass|High|
+|3|Invalid Screenname|Run Script with an invalid screenname|Raise Error|Pass|High|
 
 
 </br>
