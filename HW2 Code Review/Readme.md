@@ -19,6 +19,8 @@
 
 </br>
 
+</br>
+
 ## Comprehensive Code Review :neckbeard:
 ### Overall
 
@@ -247,6 +249,8 @@ For the code reviewed, [**TwitterSumarization.py**](https://github.com/abbottn3/
 
 </br>
 
+</br>
+
 ## Develop Test scenarios and scripts :guardsman:
 
 Note: There are **too much trouble** making the peer's programs **work cross platform**, so I just do the **test
@@ -372,6 +376,8 @@ TypeError: 'int' object is not iterable
 ```
 
 "The code raises the corresponding error. Therefore, the code passed all unit test cases.""
+
+</br>
 
 </br>
 
