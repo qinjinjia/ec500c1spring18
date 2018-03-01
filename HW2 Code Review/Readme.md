@@ -255,13 +255,15 @@ cases for my own programs**.
 |Data of Test Run|Feb. 16th, 2018|
 |---|---
 |Environment Description|Macbook(macOS V10.13.1)|
-|SW Version||
+|SW Version|HW1_API.py|
+
 
 |ID|Test Scenario|Test Steps|Results|Pass/Fail|Priority|
-|---|---|---|---|---|---|---
+|---|---|---|---|---|---
 |1|No Input|Run Script without input|Use the default screenname "HelpAnimals"|Pass|Low|
 |2|No Tweet|Run Script with a screenname withou tweet|Raise Error|Pass|High|
 |3|Invalid Screenname|Run Script with an invalid screenname|Raise Error|Pass|High|
+
 
 ```
 ***************************************
