@@ -260,9 +260,9 @@ cases for my own programs**.
 
 |ID|Test Scenario|Test Steps|Results|Pass/Fail|Priority|
 |---|---|---|---|---|---
-|1|No Input|Run Script without input|Use the default screenname "HelpAnimals"|Pass|Low|
-|2|No Tweet|Run Script with a screenname withou tweet|Raise Error|Pass|High|
-|3|Invalid Screenname|Run Script with an invalid screenname|Raise Error|Pass|High|
+|1|No Input|Run Script without input|Use the default screenname "@HelpAnimals"|Pass|Low|
+|2|No Tweet|Run Script with a screenname withou tweet|Raise Error "The account doesn't exist or Has no tweets."|Pass|High|
+|3|Invalid Screenname|Run Script with an invalid screenname|Raise Error "The account doesn't exist or Has no tweets."|Pass|High|
 
 
 ```
