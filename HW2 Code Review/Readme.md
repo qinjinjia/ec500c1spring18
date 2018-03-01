@@ -257,6 +257,62 @@ cases for my own programs**.
 |Environment Description|Macbook(macOS V10.13.1)|
 |SW Version|HW1_API.py|
 
+## Error Handling :satisfied:
+Also, I consider the error handlers in the code:
+
+#### Error: The account doesn't exist or Has no tweets.
+
+```Python
+    # Error handler
+    if len(new_tweets) == 0:
+        print("The account doesn't exist or Has no tweets.\n")
+        return 1
+```
+
+#### Error: An error occurs wilie obtaining image URL.
+```Python
+      try:
+          media = status.entities.get('media', [])
+          if(len(media) > 0):
+              media_files.add(media[0]['media_url'])
+      except:
+          print("An error occurs wilie obtaining image URL.\n")
+          return 2
+```
+
+#### Error: An error occurs while using FFMPEG.
+```Python
+    # convert image to video
+    try:
+        # names for concatenating
+        names = open('filenames.txt', 'w')
+        for filename in media_names:
+            output = filename.replace(".jpg",".mp4")
+            names.write("file " + output + "\n")
+            cmd = "ffmpeg -loop 1 -i " + filename + " -c:a libfdk_aac -ar 44100 -ac 2 -vf \"scale='if(gt(a,16/9),1280,-1)\':\'if(gt(a,16/9),-1,720)\', pad=1280:720:(ow-iw)/2:(oh-ih)/2\" -c:v libx264 -b:v 10M -pix_fmt yuv420p -r 30 -shortest -avoid_negative_ts make_zero -fflags +genpts -t 1 " + output
+            os.system(cmd)
+        names.close()
+        
+        # concate all videos to a video
+        concat_cmd = "ffmpeg -f concat -i filenames.txt output.mp4"
+        os.system(concat_cmd)
+    except:
+        print("An error occurs while using FFMPEG.\n")
+        return 3
+```
+
+**Also, some other error would be raised by API.**
+
+In Summary,
+
+|Error Code|Error Description|
+|---|---
+|1|The account doesn't exist or Has no tweets.|
+|2|An error occurs wilie obtaining image URL.|
+|3|An error occurs while using FFMPEG.|
+|Other|Raised by API|
+
+**Therefore, it is considered 'Pass' if the code raise the corresponding error described above.**
 
 |ID|Test Scenario|Test Steps|Results|Pass/Fail|Priority|
 |---|---|---|---|---|---
