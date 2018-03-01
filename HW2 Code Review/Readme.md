@@ -312,7 +312,7 @@ In Summary,
 |3|An error occurs while using FFMPEG.|
 |Other|Raised by API|
 
-**Therefore, it is considered 'Pass' if the code raise the corresponding error described above.**
+**Therefore, it is considered 'Pass' if the code raises the corresponding error described above.**
 
 </br>
 
@@ -324,6 +324,7 @@ The **unit test case** is listed below,
 |2|No Tweet|Run Script with a screenname withou tweet|Raise Error "The account doesn't exist or Has no tweets."|Pass|High|
 |3|Invalid Screenname|Run Script with an invalid screenname|Raise Error "The account doesn't exist or Has no tweets."|Pass|High|
 
+Test Results,
 
 ```
 ***************************************
@@ -369,6 +370,8 @@ TypeError: 'int' object is not iterable
 ============================ No tweet test passed! ===========================
 ============================ 13.455339908599854 seconds =============================
 ```
+
+"The code raises the corresponding error. Therefore, the code passed all unit test cases.""
 
 </br>
 
