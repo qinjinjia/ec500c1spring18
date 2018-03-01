@@ -247,7 +247,7 @@ For the code reviewed, [**TwitterSumarization.py**](https://github.com/abbottn3/
 
 </br>
 
-### Develop Test scenarios and scripts :guardsman:
+## Develop Test scenarios and scripts :guardsman:
 
 Note: There are **too much trouble** making the peer's programs **work cross platform**, so I just do the **test
 cases for my own programs**.
@@ -263,6 +263,50 @@ cases for my own programs**.
 |2|No Tweet|Run Script with a screenname withou tweet|Raise Error|Pass|High|
 |3|Invalid Screenname|Run Script with an invalid screenname|Raise Error|Pass|High|
 
+```
+***************************************
+Congratulation!
+
+There are 3 images downloaded from @helpanimals
+
+image_name_and_url.json (Twitter API to access the twitter content)
+
+output.mp4 (FFMPEG to convert images to video)
+
+image_description.json (Google Vision analysis to describe the content)
+
+***************************************
+============================ No input test passed! ===========================
+============================ 10.673694849014282 seconds =============================
+The account doesn't exist or Has no tweets.
+
+An error occurs while using FFMPEG.
+
+Traceback (most recent call last):
+  File "HW1_API.py", line 237, in <module>
+    main()
+  File "HW1_API.py", line 225, in main
+    describe_imgs(media_names)
+  File "HW1_API.py", line 192, in describe_imgs
+    for image_file_name in media_names:
+TypeError: 'int' object is not iterable
+============================ No tweet test passed! ===========================
+============================ 12.038316011428833 seconds =============================
+The account doesn't exist or Has no tweets.
+
+An error occurs while using FFMPEG.
+
+Traceback (most recent call last):
+  File "HW1_API.py", line 237, in <module>
+    main()
+  File "HW1_API.py", line 225, in main
+    describe_imgs(media_names)
+  File "HW1_API.py", line 192, in describe_imgs
+    for image_file_name in media_names:
+TypeError: 'int' object is not iterable
+============================ No tweet test passed! ===========================
+============================ 13.455339908599854 seconds =============================
+```
 
 </br>
 
