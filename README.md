@@ -13,7 +13,7 @@
 :waxing_crescent_moon: Assignment 2 - Code Review
 :link: https://github.com/qinjinjia/ec500c1spring18/tree/master/HW2%20Code%20Review
 
-:waxing_crescent_moon: Assignment 3 - Database
+:first_quarter_moon: Assignment 3 - Database
 :link: https://github.com/qinjinjia/ec500c1spring18/tree/master/HW3%20Database
 
 </br>
