@@ -18,7 +18,7 @@
   
   My Environment is **macOS High Sierra Version 10.13.3** and **Python 3.5**.
   
-  MongoDB:
+  MongoDB
   https://api.mongodb.com/python/current/installation.html
 ```
   brew install mongodb
@@ -59,3 +59,20 @@ Hope this helps. :neckbeard:
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
 
 </br>
+
+sudo mkdir -p /data/db
+
+sudo chown -R $USER /data/db
+
+Issue:
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017
+2018-03-28T16:48:49.108-0400 W NETWORK  [thread1] Failed to connect to 127.0.0.1:27017, in(checking socket for error after poll), reason: Connection refused
+2018-03-28T16:48:49.109-0400 E QUERY    [thread1] Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:251:13
+@(connect):1:6
+exception: connect failed
+
+
+Solution:
+$ brew services start mongodb
