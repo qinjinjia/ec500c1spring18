@@ -58,12 +58,16 @@ Hope this helps. :neckbeard:
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
 
-</br>
+Warm NOTE2: You may encounter the following issue, 
 
+When you attemp to execute these commands
+
+```
 sudo mkdir -p /data/db
-
+```
+```
 sudo chown -R $USER /data/db
-
+```
 Issue:
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017
@@ -73,6 +77,9 @@ connect@src/mongo/shell/mongo.js:251:13
 @(connect):1:6
 exception: connect failed
 
-
-Solution:
+Try to solve this bug with this command
 $ brew services start mongodb
+
+Good Luck!
+
+:trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface:
