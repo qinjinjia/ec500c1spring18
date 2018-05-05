@@ -1,6 +1,18 @@
 # Copyright 2018 Qinjin Jia qjia@bu.edu
 
-# db.py 
+# phase1.py 
+
+"""
+Usage:
+show dbs
+use airport_location
+show collections
+read: db.posts.find()
+search: db.posts.find({...})
+insert: db.posts.insertOne({...})
+update: db.posts.updateOne({...})
+"""
+
 
 " Import airport location data to Mongodb" 
 JSON_FILE_NAME = "airports.json" 
@@ -19,13 +31,3 @@ data = json.loads(f.read())
 
 airports = db.posts.insert_many(data)
 print("finish")
-
-
-#mongo
-#show dbs
-#use airport_location
-#show collections
-#read: db.posts.find()
-#search: db.posts.find({...})
-#insert: db.posts.insertOne({...})
-#update: db.posts.updateOne({...})
