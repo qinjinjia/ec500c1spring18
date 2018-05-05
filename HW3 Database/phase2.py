@@ -1,8 +1,9 @@
 # Copyright 2018 Qinjin Jia qjia@bu.edu Github:qinjinjia
 
-# API Library
+# phase2.py
 
-""" EC500_C1_S'18_HW1_API
+""" 
+Database Phase 2
 File Description and Instruction:
 You could use this file as a Library or a Program
 
