@@ -52,7 +52,7 @@ Then set up a Cloud Platform Console project and **download a private key as JSO
 
 </br>
 
-Warm NOTE: If Google Cloud does not running on your compter successfully, you may try this command,
+Warm NOTE: If Google Cloud does not run on your compter successfully, you may try this command,
 ```
   source ~/.bashrc
 ```
@@ -83,7 +83,7 @@ connect@src/mongo/shell/mongo.js:251:13
 exception: connect failed
 ```
 
-Try to solve this bug with this command
+Try to solve this bug with command
 ```
 $ brew services start mongodb
 ```
