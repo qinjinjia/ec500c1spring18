@@ -50,6 +50,8 @@ Then set up a Cloud Platform Console project and **download a private key as JSO
   export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
+</br>
+
 Warm NOTE: If Google Cloud does not running on your compter successfully, you may try this command,
 ```
   source ~/.bashrc
@@ -57,6 +59,8 @@ Warm NOTE: If Google Cloud does not running on your compter successfully, you ma
 Hope this helps. :neckbeard:
 
 **Remember to Enable Google Cloud Vision API** in Google Cloud Console
+
+</br>
 
 Warm NOTE2: You may encounter the following issue, 
 
@@ -69,6 +73,7 @@ sudo mkdir -p /data/db
 sudo chown -R $USER /data/db
 ```
 Issue:
+```
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017
 2018-03-28T16:48:49.108-0400 W NETWORK  [thread1] Failed to connect to 127.0.0.1:27017, in(checking socket for error after poll), reason: Connection refused
@@ -76,9 +81,13 @@ connecting to: mongodb://127.0.0.1:27017
 connect@src/mongo/shell/mongo.js:251:13
 @(connect):1:6
 exception: connect failed
+```
 
 Try to solve this bug with this command
+```
 $ brew services start mongodb
+```
+</br>
 
 Good Luck!
 
